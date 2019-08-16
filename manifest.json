@@ -1,0 +1,19 @@
+ {
+    "name": "Habitica Tasks",
+    "version": "1.0",
+    "description": "Follow up your Habitica tasks",
+    "author": "Carolina Caires",
+    "manifest_version": 2,
+    "page_action": {
+      "default_popup": "popup.html"
+    },
+    "background": {
+      "scripts": ["background.js"],
+      "persistent": false
+    },
+    "permissions": ["declarativeContent", "storage"],
+    "icons": { 
+	   "16": "img/habitica16.png",
+      "48": "img/habitica48.png",
+	   "128": "img/habitica128.png" }
+ }
